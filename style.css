@@ -13,7 +13,7 @@ h1{
     padding: 12px;
     width: 300px;
 }
-.sidebar_navigation{
+.sidebar_library, .sidebar_navigation{
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -39,10 +39,35 @@ h1{
     padding: 10px 0;
 }
 
+.sidebar button span,
+.sidebar nav ul li a span{
+    margin-right: 10px;
+}
+
 .sidebar nav ul li a{
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+}
+
+.sidebar_library{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar_library button{
+    background: #121212;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 10px;
+}
+
+.sidebar_library .your_library, 
+.sidebar_library .add_playlist{
+    padding: 15px 10px;
 }
