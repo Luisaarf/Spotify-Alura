@@ -6,6 +6,7 @@ body{
 h1{
     color: #fff
 }
+
 .sidebar{
     position: fixed;
     top: 0;
@@ -15,13 +16,12 @@ h1{
     width: 300px;
 }
 .sidebar_navigation{
-    background-color: #121212;
+    background-color: var(--default-color-background);
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
 .sidebar_navigation .logo{
-    background: #121212;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -53,7 +53,7 @@ h1{
 }
 
 .sidebar_library{
-    background-color: #121212;
+    background-color: var(--default-color-background);
     border-radius: 8px;
     display: flex;
     flex: 1;
@@ -75,7 +75,7 @@ h1{
 .sidebar_library .library_button,
 .sidebar_library .add_playlist_button{
     margin-right: 10px;
-    color: #b3b3b3;
+    color: var(--default-color-text);
     background-color: transparent;
     border: 0px;
     font-size: 14px;
@@ -102,7 +102,6 @@ h1{
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
     padding: 5px;
@@ -154,7 +153,6 @@ h1{
 }
 
 .sidebar .bottom-sidebar{
-    background-color: #121212;
     vertical-align: baseline;
     flex-grow: 1;
 }
@@ -164,13 +162,13 @@ h1{
 }
 
 .bottom-sidebar .cookies a {    
-    color: #b3b3b3;
+    color: var(--default-color-text);
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
 }
 
-.bottom-sidebar .cookies a :hover{    
+.bottom-sidebar .cookies a:hover{    
     text-decoration: underline;
 }
 
