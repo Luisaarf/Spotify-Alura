@@ -4,10 +4,10 @@
     max-width: 80vw;
     height: 100vh;
     margin-left: 320px;
-    margin-right: 56px;
+    margin-right: 40px;
 }
 
-.header_navigation{
+.header_navigation, .playlist-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,3 +91,15 @@
 }
 
 /* MAIN CONTENT */
+
+#greeting{ 
+    font-size: 30px;
+    padding: 10px 8px
+}
+
+.session{ 
+
+    font-size: 20px;
+    margin-top: 8px;
+    padding: 10px 8px
+}
