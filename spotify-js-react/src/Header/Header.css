@@ -83,16 +83,16 @@
 
 /* HOVER */
 
-.header__search:hover {
+.header_search:hover {
     border: 1px solid #fff;
 }
   
-.header__login .subscribe:hover {
+.header_login .subscribe:hover {
     transform: scale(1.04);
-    color: var(--text-base-light);
+    color: #fff;
 }
   
-.header__login .login:hover {
+.header_login .login:hover {
     transform: scale(1.04);
 }
 /* FIM HOVER */

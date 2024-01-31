@@ -1,0 +1,20 @@
+{
+    "cards" : 
+    [
+        { "cardName": "card1", "src": "../../assets/playlist/1.jpeg", "title": "Boas Festas"}, 
+        { "cardName": "card2", "src": "../../assets/playlist/2.png", "title": "Feitos para você"}, 
+        { "cardName": "card3", "src": "../../assets/playlist/3.jpeg", "title": "Lançamentos"}, 
+        { "cardName": "card4", "src": "../../assets/playlist/4.jpeg", "title": "Creators"}, 
+        { "cardName": "card5", "src": "../../assets/playlist/5.jpeg", "title": "Para treinar"}, 
+        { "cardName": "card6", "src": "../../assets/playlist/6.jpeg", "title": "Podcasts"}, 
+        { "cardName": "card7", "src": "../../assets/playlist/7.jpeg", "title": "Sertanejo"}, 
+        { "cardName": "card8", "src": "../../assets/playlist/8.jpeg", "title": "Samba e pagode"}, 
+        { "cardName": "card9", "src": "../../assets/playlist/9.jpeg", "title": "Funk"}, 
+        { "cardName": "card10", "src": "../../assets/playlist/10.jpeg", "title": "MPB"},
+        { "cardName": "card11", "src": "../../assets/playlist/11.jpeg", "title": "Rock"},
+        { "cardName": "card12", "src": "../../assets/playlist/12.jpeg", "title": "Hip Hop"},
+        { "cardName": "card13", "src": "../../assets/playlist/13.jpeg", "title": "Indie"},
+        { "cardName": "card14", "src": "../../assets/playlist/14.jpeg", "title": "Relax"},
+        { "cardName": "card15", "src": "../../assets/playlist/15.jpeg", "title": "Música Latina"}
+    ]
+}

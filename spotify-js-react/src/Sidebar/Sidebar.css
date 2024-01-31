@@ -77,14 +77,10 @@
     padding: 20px 10px;
 }	
 
-.sidebar_library .library_button .fa-compact-disc{
+.sidebar_library .library_button .faIcon{
     font-size: 20px;
     margin-right: 10px;
     padding-right: 8px;
-}
-
-.sidebar_library .library_button .fa-plus{
-    margin: 24px 10px;
 }
 
 
@@ -194,6 +190,6 @@
     border-radius: 20px;
 }
 
-.languages .languages_button span{
-    margin: 0;
+.languages .languages_button .faIcon{
+    padding-right: 8px;
 }
