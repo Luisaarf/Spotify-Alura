@@ -1,0 +1,59 @@
+.playlist-container {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--default-color-background);
+  }
+
+.playlist{
+    margin: 24px;
+}
+
+.playlist #greeting{ 
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist .session {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* SCROLL */
+.offer_scroll-container {
+    max-height: 43vh;
+    margin: 24px;
+    overflow-y: auto;
+}
+  
+.offer_scroll-container::-webkit-scrollbar {
+    width: 1px;
+}
+
+.offer_scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+/* FIM SCROLL */
+
+.offer_list-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 16px;
+    grid-gap: 16px;
+    margin-bottom: 16px;
+}
+
+.offer_list-item img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%, -2%);
+}
