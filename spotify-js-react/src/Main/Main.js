@@ -1,8 +1,10 @@
 import React from "react";
 import "./Main.css";
 import Cards from "./Cards/Cards";
+import Artists from "./Artists/Artists";
 
 const Main = () => {
+
   return (
     <div className="playlist-container">
         <div id="result_playlists">
@@ -16,7 +18,9 @@ const Main = () => {
                 </div>
             </div>
         </div>
-        {/* playlist artist */}
+        <div id="result-artist" className="hidden">
+          <Artists/>
+        </div>
     </div>
   );
 }

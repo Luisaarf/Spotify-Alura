@@ -16,6 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "api-start" : "json-server --watch src/api-artists/artists.json --port 5000",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
