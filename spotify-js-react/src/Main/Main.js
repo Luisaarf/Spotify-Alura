@@ -11,9 +11,8 @@ const Main = () => {
                 <h2 className="session">Navegar por todas as seções</h2>
             </div>
             <div className="offer_scroll-container">
-                {/* playlist cards */}
-                <Cards/>
                 <div className="offer-list">
+                  <Cards/>
                 </div>
             </div>
         </div>

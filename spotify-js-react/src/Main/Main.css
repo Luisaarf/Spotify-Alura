@@ -40,20 +40,3 @@
 
 /* FIM SCROLL */
 
-.offer_list-item{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    gap: 16px;
-    grid-gap: 16px;
-    margin-bottom: 16px;
-}
-
-.offer_list-item img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: auto;
-    width: 107px;
-    transform: rotate(25deg) translate(18%, -2%);
-}
