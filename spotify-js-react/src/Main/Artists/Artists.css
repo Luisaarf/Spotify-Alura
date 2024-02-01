@@ -60,9 +60,12 @@
 }
   
 .card-text a {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     vertical-align: middle;
+    text-decoration: none;
+    color: #fff;
 }
   
 .artist-name {
