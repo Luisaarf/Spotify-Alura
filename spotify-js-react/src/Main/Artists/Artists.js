@@ -1,20 +1,20 @@
 import React from "react";
 import "./Artists.css";
 
-const Artists = () => {
+const Artists = (props) => {
     return (
-        <div class="grid-container">
-            <div class="artist-card" id="">
-                <div class="card-img">
-                    <img id="artist-img" class="artist-img" />
-                    <div class="play">
-                        <span class="fa fa-solid fa-play"></span>
+        <div className="grid-container">
+            <div className="artist-card" id="">
+                <div className="card-img">
+                    <img id="artist-img" className="artist-img" src ={props.artistImage}/>
+                    <div className="play">
+                        <span className="fa fa-solid fa-play"></span>
                     </div>
                 </div>
-                <div class="card-text">
-                    <a title="Foo Fighters" class="vst" href="">
-                        <span class="artist-name" id="artist-name"></span>
-                        <span class="artist-categorie">Artista</span>
+                <div className="card-text">
+                    <a title="Foo Fighters" className="vst" href="">
+                        <span className="artist-name" id="artist-name" >{props.artistName}</span>
+                        <span className="artist-categorie">Artista</span>
                     </a>
                 </div>
             </div>

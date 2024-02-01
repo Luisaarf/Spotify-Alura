@@ -1,10 +1,12 @@
 import React from 'react';
+
 import './Header.css';
 import smallLeft from '../assets/icons/small-left.png';
 import smallRight from '../assets/icons/small-right.png';
 import iconSearch from '../assets/icons/search.png';
 
-const Header = () => {
+
+const Header = (props) => {
     return (   
         <nav className="header_navigation">
            <div className="navigation">
@@ -17,7 +19,7 @@ const Header = () => {
             </div>
                 <div className="header_search">
                     <img src={iconSearch} alt=""/> 
-                    <input id="search-input" type="text" placeholder="O que você quer ouvir?" maxlength="800"/>
+                    <input value={props.searchField} id="search-input" type="text" placeholder="O que você quer ouvir?" maxlength="800" onChange={props.onInputChange}/>
                 </div>
             <div className="header_login">
                 <button className="subscribe">Inscreva-se</button>

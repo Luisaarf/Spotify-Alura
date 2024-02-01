@@ -22,7 +22,7 @@ const Cards = () => {
     }
 
     return(
-        <section class="offer_list-item">
+        <section className="offer_list-item">
             {cardsArray}
         </section>
     )
